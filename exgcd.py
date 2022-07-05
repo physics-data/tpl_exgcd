@@ -35,6 +35,7 @@ def exgcd(a, b):
     else:
         return (0, 0, 0)
 
+
 action = input()
 # input a and b
 a = int(input())
