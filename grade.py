@@ -92,7 +92,7 @@ if __name__ == '__main__':
 
 
     # output grade
-    grade = int(grade)
+    grade = int(FULL_SCORE / len(files) * success_count)
     data['grade'] = grade
     if os.isatty(1):
         print(f'Grade: {grade}/{int(FULL_SCORE)}')
