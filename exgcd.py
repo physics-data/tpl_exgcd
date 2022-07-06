@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def gcd(a, b):
     """
     Compute the GCD of a and b.
@@ -36,16 +38,17 @@ def exgcd(a, b):
         return (0, 0, 0)
 
 
-action = input()
-# input a and b
-a = int(input())
-b = int(input())
+if __name__ == '__main__':
+    action = input()
+    # input a and b
+    a = int(input())
+    b = int(input())
 
-# compute and output
-if action == "gcd":
-    print(gcd(a, b))
-else:
-    x, y, g = exgcd(a, b)
-    print(x)
-    print(y)
-    print(g)
+    # compute and output
+    if action == "gcd":
+        print(gcd(a, b))
+    else:
+        x, y, g = exgcd(a, b)
+        print(x)
+        print(y)
+        print(g)
