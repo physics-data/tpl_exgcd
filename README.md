@@ -184,6 +184,6 @@ def exgcd(a, b):
 最终分数构成为：
 
 * 黑盒 80 分：共 5 个测例，每个 16 分
-* 白盒 20 分：参照[白盒标准](https://physics-data.meow.plus/faq/tutorials/whitebox/)，并务必据实填写 honor code
+* 白盒 20 分：参照[白盒标准](https://physics-data.meow.plus/faq/whitebox/)，并务必据实填写 honor code
 
 助教以 deadline 前 <https://git.tsinghua.edu.cn/> 上最后一次提交为准进行评测。
